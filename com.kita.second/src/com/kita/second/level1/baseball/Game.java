@@ -16,9 +16,6 @@ public class Game {
 
 		System.out.println("야구게임 종료!");
 			
-			
-			
-			
 		
 	}
 }
