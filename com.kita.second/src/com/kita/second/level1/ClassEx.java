@@ -6,6 +6,22 @@ public class ClassEx{
 	String field2;
 	int[] field3;
 	
+	int field4;
+	static int field5;
+	
+	void method4() { }
+	
+	static void method5() { }
+	
+	static void methodTest() {
+//		field4 = 10;
+//		method4();
+		
+		field5 = 10;
+		method5();
+	}
+
+	
 	// 생성자
 	// 생성과 동시에 머머 할거
 	public ClassEx() {
@@ -32,7 +48,6 @@ public ClassEx(int field1) {
 		return result;
 	}
 	
-	
 	// 매개변수의 1. 타입, 2. 개수, 3. 위치
 	
 	int sum(int... arr) {
@@ -43,4 +58,5 @@ public ClassEx(int field1) {
 			}
 		return hap;
 	}
+
 }

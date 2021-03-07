@@ -9,13 +9,13 @@ public class Dog extends Animal{
 		this.cutiness = true;
 	}
 	
-	void barking() {
-		System.out.println("개가 짖는다");
+	void bark() {
+		System.out.println("개가 짖는다 \n");
 	}
 	
 	// Overriding
 	@Override
 	void cry() {
-		System.out.println("개가 운다");
+		System.out.println("개가 운다\n");
 	}
 }
