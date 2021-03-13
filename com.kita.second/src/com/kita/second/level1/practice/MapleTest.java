@@ -7,3 +7,4 @@ public class MapleTest {
 		adv1.jump();
 	}
 }
+

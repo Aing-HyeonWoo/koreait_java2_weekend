@@ -6,6 +6,7 @@ public class ClassEx{
 	String field2;
 	int[] field3;
 	
+
 	int field4;
 	static int field5;
 	
@@ -58,5 +59,6 @@ public ClassEx(int field1) {
 			}
 		return hap;
 	}
+	
 
 }
