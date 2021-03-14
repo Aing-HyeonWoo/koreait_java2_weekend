@@ -2,10 +2,10 @@ package com.kita.second.level2;
 
 public class AnimalTest {
 	public static void main(String[] args) {
-		Animal ani = new Animal("흰둥이");
-		ani.cry();
-		ani = new Cat("깜2");
-		ani.cry();
+		Animal ani;
+//		ani.cry();
+//		ani = new Cat("깜2");
+//		ani.cry();
 		ani = new Dog("점박2");
 		ani.cry();
 		
@@ -22,9 +22,9 @@ public class AnimalTest {
 		d1.cry();
 		d1.bark();
 		
-		Animal a1 = new Animal("미미");
+//		Animal a1 = new Animal("미미");
 //		System.out.println("a1 : "+a1.cutiness);
 //		a1.barking();
-		a1.cry();
+//		a1.cry();
 	}
 }

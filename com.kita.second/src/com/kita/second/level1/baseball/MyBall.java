@@ -29,6 +29,7 @@ public class MyBall {
 				continue;
 			}
 		}
+		scan.close();
 	}
 	
 	int getMyNum(int idx) {

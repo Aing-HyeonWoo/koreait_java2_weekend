@@ -1,14 +1,14 @@
 package com.kita.second.level1;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class Test {
 	public static void main(String[] args) {
 		Calc myCalc = new Calc();
 //		double pi = myCalc.pi;
-		int num = myCalc.num;
-		
-		double pi = Calc.pi;
+//		int num = myCalc.num;
+//		
+//		double pi = Calc.pi;
 		myCalc.num = 15;
 		System.out.println("myCalc.num : "+myCalc.num);
 		

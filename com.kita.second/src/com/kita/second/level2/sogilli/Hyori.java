@@ -9,13 +9,13 @@ public class Hyori {
 	// field
 	public String music;
 	int follower;
-	private boolean star = true;
+//	private boolean star = true;
 	
 	// 생성자
 	public Hyori(String music) {
 		this.music = music;
 		follower = 100;
-		star = true;
+//		star = true;
 	}
 	
 	Hyori(int follower) {
@@ -24,7 +24,7 @@ public class Hyori {
 		yoga();
 	} 
 	
-	private Hyori(boolean star) {} // 딴데서 접근 못함
+//	private Hyori(boolean star) {} // 딴데서 접근 못함
 	
 	
 	// 메소드

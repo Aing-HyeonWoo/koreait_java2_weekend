@@ -4,10 +4,10 @@ public class NetflixTest {
 	
 	
 	public static void main(String[] args) {
-			ProGamer hong = new ProGamer();
-			Game gm = new Game();
-			BattleGround bg = new BattleGround();
-			Overwatch ow = new Overwatch();
+//			ProGamer hong = new ProGamer();
+//			Game gm = new Game();
+//			BattleGround bg = new BattleGround();
+//			Overwatch ow = new Overwatch();
 			
 //			hong.work(gm);
 //			hong.work(bg);

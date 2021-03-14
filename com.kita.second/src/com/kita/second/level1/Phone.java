@@ -2,11 +2,11 @@ package com.kita.second.level1;
 
 public class Phone {
 	// 필드(속성)
-	private String phoneName;
+//	private String phoneName;
 	private String owner;
 	private String color;
-	private int memory;
-	private String phoneNumber;
+//	private int memory;
+//	private String phoneNumber;
 	
 	// setter, getter 메소드
 	void setOwner(String owner) {
@@ -28,11 +28,11 @@ public class Phone {
 	// Phone의 모든 필드에 초기값을 넣어주는 생성자 만들기
 	
 	public Phone(String phoneName, String owner, String color, int memory, String phoneNumber) {
-		this.phoneName = phoneName;
+//		this.phoneName = phoneName;
 		this.owner = owner;
 		this.color = color;
-		this.memory = memory;
-		this.phoneNumber = phoneNumber;
+//		this.memory = memory;
+//		this.phoneNumber = phoneNumber;
 	}
 	
 	// 생성자
@@ -42,9 +42,9 @@ public class Phone {
 	}
 	
 	public Phone(String phoneName, String color, int memory) {
-		this.phoneName = phoneName;
+//		this.phoneName = phoneName;
 		this.color = color;
-		this.memory = memory;
+//		this.memory = memory;
 	}
 	
 	// 메소드(동작)

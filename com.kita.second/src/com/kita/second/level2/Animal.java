@@ -1,20 +1,22 @@
 package com.kita.second.level2;
 
-public  class Animal {
+public abstract class Animal {
 	String name;
 	String age;
-	private String type;
+//	private String type;
 	
 	// 메소드
 	
 	public Animal(String name) {
 		this.name = name;
 	}
-
-	void cry() {
-		System.out.println("동물이 운다. \n");
-	}
 	
-	private void method() {}
+	void breath() {
+		System.out.println("숨을 쉰다");
+	}
+
+	abstract void cry();
+	
+//	private void method() {}
 }
 
