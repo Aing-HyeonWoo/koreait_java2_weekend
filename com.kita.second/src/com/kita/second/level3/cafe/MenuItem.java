@@ -20,7 +20,7 @@ public class MenuItem {
 
 	@Override
 	public String toString() {
-		return String.format("%s\t\t%,d원", name, price);
+		return String.format("%s   %,d원", name, price);
 	}
 	
 }

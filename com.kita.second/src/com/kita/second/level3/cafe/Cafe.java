@@ -7,13 +7,9 @@ public class Cafe {
 		Barista bar = new Barista();
 		
 		
-		
 		MenuItem chosenMenu = cus.order(menu);
 		Coffee c1 = bar.makeCoffee(chosenMenu);
 		cus.drinkCoffee(c1);
 		
 	}
 }
-
-
-
