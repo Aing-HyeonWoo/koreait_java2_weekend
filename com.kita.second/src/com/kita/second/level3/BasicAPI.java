@@ -76,7 +76,7 @@ public class BasicAPI {
 		String str7 = String.valueOf(3.1415926535897932384626);
 		System.out.println("str7 : "+str7);
 		
-		double r = Math.random();
+//		double r = Math.random();
 //		int rNum = (int)(Math.random() * (max - min + 1) + min);
 		
 		double d1 = Math.ceil(-5.6);

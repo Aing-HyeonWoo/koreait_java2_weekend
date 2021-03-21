@@ -1,11 +1,17 @@
 package com.kita.second.level3;
 
-public class Dog {
+public class Dog extends Animal{
+
 	public Dog(String name) {
-//		super(name);
+		super(name);
 	}
 	
+	
+	@Override
 	void cry() {
-		System.out.println("rorkdnsek.");
+		System.out.println("개가 운다\n");
 	}
+	
+	
+	
 }

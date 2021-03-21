@@ -1,6 +1,6 @@
 package com.kita.second.level3.cafe;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 public class Menu {
 	private MenuItem[] arr = new MenuItem[4];

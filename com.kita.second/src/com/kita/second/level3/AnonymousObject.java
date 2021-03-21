@@ -7,13 +7,13 @@ public class AnonymousObject {
 		ChildAO c = (ChildAO)p;
 		c.childMethod();
 		
-		ParentAO p2 = new ParentAO() {
-			int childField;
-			
-			@Override
-			void parentMethod() {}
-			void childMethod() {};
-			};
+//		ParentAO p2 = new ParentAO() {
+//			int childField;
+//			
+//			@Override
+//			void parentMethod() {}
+//			void childMethod() {};
+//			};
 		}
 	}
 

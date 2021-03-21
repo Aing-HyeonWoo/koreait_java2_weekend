@@ -1,12 +1,16 @@
 package com.kita.second.level3;
 
 public abstract class Animal {
-	String name;
+	public String name;
 	int age;
 	
-//	void Animal(String name) {
-//		this.name = name;
-//	}
+	public Animal(String name) {
+		this.name = name;
+	}
+	
+	String getName() {
+		return name;
+	}
 	
 	void cry() {
 		System.out.println();

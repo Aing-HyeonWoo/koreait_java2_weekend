@@ -12,15 +12,15 @@ public class AnimalTest {
 //		double num = 10;
 //		int num1 = (int)10.5;
 		
-		Dog d = (Dog)ani;
-		d.bark();
+//		Dog d = (Dog)ani;
+//		d.bark();
 		
 		
 		
 		Dog d1 = new Dog("누렁2");
 		System.out.println("d1의 이름은 "+d1.name+"\n");
 		d1.cry();
-		d1.bark();
+//		d1.bark();
 		
 //		Animal a1 = new Animal("미미");
 //		System.out.println("a1 : "+a1.cutiness);
